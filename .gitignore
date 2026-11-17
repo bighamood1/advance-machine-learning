@@ -1,0 +1,17 @@
+# Python and local environments
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+reports/pytest-tmp/
+
+# Local credentials and environment overrides
+.env
+.streamlit/secrets.toml
+
+# Runtime-only local dashboard logs and URL
+reports/*.log
+reports/dashboard_url.txt
+
+# Keep the source dataset, prepared tables, model artifacts, and reports in
+# the repository when sharing a complete reproducible project.
